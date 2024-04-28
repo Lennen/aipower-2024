@@ -19,7 +19,7 @@
 </div>
     
   
-<center><div style="max-width: 1270px" id="root"></div></center>
+<center><div style="max-width: 1350px" id="root"></div></center>
 <img style="width: 100%"src="icons/Footer.png"></img>
 
 
