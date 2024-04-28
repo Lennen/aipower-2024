@@ -1,0 +1,158 @@
+#header{
+    height: 72px;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+body{
+    background: #F4F5FA;
+    margin: 0;
+}
+#root{
+    margin: 8px;
+}
+#left_menu{
+    margin: 10px 10px;
+    padding: 48px 10px;
+    border-radius: 32px;
+    width: 284px;
+    height: 626px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    
+    color: #7C8092;
+    /* gb.ru/Inter/Onest/Medium 18 */
+    font-family: Onest;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 188px;
+    height: 48px;
+}
+.mainDiv{
+    display: flex; 
+    text-wrap: no-wrap;
+}
+#copilot{
+    margin: 10px 10px;
+    padding: 32px 22px;
+    border-radius: 24px;
+    width: 80%;
+    height: 556px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+#copilot-specialist{
+    margin-right: 32px;
+}
+#copilot-window{
+    width: 80%;
+    background: #F4F5FA;
+    border-radius: 16px;
+    padding: 10px 0px;
+    display: table;
+    height: 100%;
+    position: relative;
+}
+#uquestion{
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+#udata{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#upload-files{
+    margin: 10px 10px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin: 3px 10px;
+}
+.co-chater{
+    width: 95%;
+}
+.answers-window{
+    margin: 10px 10px;
+    height: 450px;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+}
+.menu-link{
+   text-decoration: none; 
+}
+.left-menu-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_current{
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+.co-chater-find{
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+.people-find{
+    color: #7C8092;
+    font-family: Onest;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.people-find-person{
+    font-size: 16px !important;
+    color: #2C2D30 !important;
+    background: gray;
+    padding: 10px 10px;
+    padding-left: 0px;
+    border-radius: 8px;
+    background: var(--gb-ru-white-lilac, #F4F5FA);
+}
+.message {
+    background: white; border-radius: 16px; padding: 14px 16px; margin: 16px 16px; width: 60%;
+    font-size: 16px;
+    color: #2C2D30;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    text-align: left;
+}
+.message-all {
+    display:flex; flex-wrap: nowrap; align-items: center;
+}
