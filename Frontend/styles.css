@@ -88,6 +88,9 @@ li {
     justify-content: center;
     align-items: center;
 }
+textarea:focus, input:focus{
+    outline: none;
+}
 #upload-files{
     margin: 10px 10px;
 }
