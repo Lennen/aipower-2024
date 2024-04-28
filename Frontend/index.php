@@ -2,7 +2,7 @@
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script type="text/javascript" src="https://unpkg.com/babel-standalone@6/babel.js"></script>
 
-<!-- Все решения -->
+<!-- Все подключаемые решения могут устанавливаться как через  CDN, так и локально -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
